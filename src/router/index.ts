@@ -15,10 +15,15 @@ const routes: Array<RouteRecordRaw> = [
         path: '',
         redirect: '/tabs/tab1'
       },
-      // TUGAS 2
+      // TUGAS 2 Weather Tab
       {
         path: 'tab1',
         component: () => import('@/views/weather.vue')
+      },
+      // TUGAS 3 Crypto Tab
+      {
+        path: 'tab2',
+        component: () => import('@/views/crypto.vue')
       }
     ]
   }

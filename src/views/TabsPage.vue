@@ -7,6 +7,10 @@
           <ion-icon aria-hidden="true" :icon="cloud" />
           <ion-label>Weather</ion-label>
         </ion-tab-button>
+        <ion-tab-button tab="tab2" href="/tabs/tab2">
+          <ion-icon aria-hidden="true" :icon="logoUsd" />
+          <ion-label>Crypto</ion-label>
+        </ion-tab-button>
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
@@ -14,5 +18,5 @@
 
 <script setup lang="ts">
 import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage, IonRouterOutlet } from '@ionic/vue';
-import { ellipse, square, cloud } from 'ionicons/icons';
+import { cloud, logoUsd } from 'ionicons/icons';
 </script>
